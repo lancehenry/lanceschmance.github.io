@@ -23,6 +23,11 @@ body, html {
     letter-spacing: -1px;
 }
 
+.btn {
+    border-radius: 40px;
+    padding: 10px 40px;
+}
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;

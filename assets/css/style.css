@@ -51,8 +51,18 @@ h3 {
     font-weight: 700;
 }
 
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: .75em;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
+}
+
+.p-project {
+    color: #616161;
 }
 
 .p-text {

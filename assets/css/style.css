@@ -33,11 +33,20 @@ body {
 }
 
 .jumbo-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     border-radius: 40px;
     padding: 10px 40px;
 }
 
+.work-container {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
 .proj-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     border-radius: 40px;
     padding: 10px 40px;
 }
@@ -81,12 +90,12 @@ p {
 
 .exp-container {
     margin-top: 100px;
+    margin-bottom: 85px;
 }
 
 .content-rows {
     line-height: 25px;
     margin-top: 50px;
-    margin-bottom: 100px;
     padding: 0 20px 0 20px;
 }
 

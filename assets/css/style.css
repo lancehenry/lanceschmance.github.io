@@ -20,11 +20,8 @@ body {
     height: 60px;
 }
 
-.jumbotron {
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.jumbo-container {
+    padding: 10%;
 }
 
 .display-4 {

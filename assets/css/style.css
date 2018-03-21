@@ -3,6 +3,7 @@
 html {
     position: relative;
     min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -41,6 +42,14 @@ body {
     padding: 10px 40px;
 }
 
+.text-left {
+    padding-left: 50px;
+}
+
+.text-right {
+    padding-right: 50px;
+}
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -66,7 +75,28 @@ p {
 }
 
 .p-text {
+    font-size: 14px;
     color: #ababab;
+}
+
+.exp-container {
+    margin-top: 100px;
+}
+
+.content-rows {
+    line-height: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0 20px 0 20px;
+}
+
+.icon {
+    color: #0b80fb;
+    margin-bottom: 20px;
+}
+
+.content-heading {
+    margin-bottom: 20px;
 }
 
 /* Sticky Footer Styles

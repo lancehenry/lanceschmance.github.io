@@ -31,7 +31,12 @@ body {
     color: #353335;
 }
 
-.btn {
+.jumbo-btn {
+    border-radius: 40px;
+    padding: 10px 40px;
+}
+
+.proj-btn {
     border-radius: 40px;
     padding: 10px 40px;
 }

@@ -12,15 +12,14 @@ new TypeIt ("#input-type", {
 });
 
 // Animated Buttons with pulse effect
-// Animation set to variable
 var animationName = "animated pulse";
-
-// Variable to listen for any Animation ending
 var animationEnd = "webkitAnimationEnd mozAnimationEnd MS AnimationEnd oanimationend animationend";
 
-// Function for hover on button
-$("#btn-animate").hover(function() {
-    $("#btn-animate").addClass(animationName).one(animationEnd, function() {
-        $(this).removeClass(animationName);
-    });
+// Functions for hover on button
+$("#btn-animate").mouseover(function() {
+    $("#btn-animate").addClass(animationName);
+});
+
+$("#btn-animate").mouseout(function() {
+    $("#btn-animate").removeClass(animationName);
 });

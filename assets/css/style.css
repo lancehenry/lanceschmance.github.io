@@ -139,6 +139,7 @@ p {
 .bottom-jumbo {
     background-color: #d0e2e3;
     margin-bottom: -80px;
+    padding: 100px 0;
 }
 
 /* Sticky Footer Styles

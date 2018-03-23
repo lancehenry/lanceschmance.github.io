@@ -42,7 +42,7 @@ ul {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(53,51,53)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* Wrapper For Entire Page
+/* Jumbotron styles
 --------------------------------------------------- */
 .jumbo-container {
     padding: 10%;
@@ -63,6 +63,13 @@ ul {
     padding: 15px 40px;
 }
 
+/* Expertise Section styles
+--------------------------------------------------- */
+
+
+
+/* Recent Work Section styles
+--------------------------------------------------- */
 .work-container {
     margin-top: 40px;
     margin-bottom: 10px;
@@ -167,7 +174,6 @@ p {
 
 /* Wobble Button Animation
 --------------------------------------------------- */
-
 @-webkit-keyframes hvr-wobble-horizontal {
     16.65% {
       -webkit-transform: translateX(8px);

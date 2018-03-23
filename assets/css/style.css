@@ -166,12 +166,6 @@ p {
     margin-bottom: 10px;
 }
 
-.bottom-jumbo {
-    background-color: #d0e2e3;
-    margin-bottom: -80px;
-    padding: 100px 0;
-}
-
 /* Wobble Button Animation
 --------------------------------------------------- */
 @-webkit-keyframes hvr-wobble-horizontal {
@@ -257,27 +251,46 @@ p {
     animation-iteration-count: 1;
 }
 
+/* Contact Me Section
+--------------------------------------------------- */
+.bottom-jumbo {
+    background-color: #d0e2e3;
+    margin-bottom: 50px;
+    padding: 100px 0;
+}
+
 /* Sticky Footer Styles
 --------------------------------------------------- */
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 120px; /* Set the fixed height of the footer */
-    line-height: 120px; /* Vertically center the text */
+    height: 250px; /* Set the fixed height of the footer */
+    /* line-height: 20px; Vertically center the text */
     background-color: #353335;
+    padding-top: 50px;
 }
 
 .footer-logo {
     height: 60px;
+    margin-bottom: 40px;
 }
 
 .foot-icon {
+    color: #ababab;
+    margin-bottom: 10px;
+}
+
+.foot-icon:hover {
     color: #f4f0f0;
 }
 
+.icon-space {
+    margin-right: 10px;
+}
+
 .by-line {
-    color: #f4f0f0;
+    color: #ababab;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: .85em;

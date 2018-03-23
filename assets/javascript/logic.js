@@ -10,16 +10,3 @@ new TypeIt ("#input-type", {
     cursor: true,
     loop: true
 });
-
-// Animated Buttons with pulse effect
-var animationName = "animated pulse";
-var animationEnd = "webkitAnimationEnd mozAnimationEnd MS AnimationEnd oanimationend animationend";
-
-// Functions for hover on button
-$("#btn-animate").mouseover(function() {
-    $("#btn-animate").addClass(animationName);
-});
-
-$("#btn-animate").mouseout(function() {
-    $("#btn-animate").removeClass(animationName);
-});

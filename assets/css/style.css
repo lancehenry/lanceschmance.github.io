@@ -1,4 +1,4 @@
-/* HTML, Body Styles
+/* HTML, Body styles, Page wrapper
 --------------------------------------------------- */
 html {
     position: relative;
@@ -11,18 +11,39 @@ body {
     margin-bottom: 200px;
 }
 
+.wrapper {
+    height: 100%;
+}
+
 /* Navigation Bar
 --------------------------------------------------- */
 .logo {
     height: 60px;
 }
 
-/* Wrapper For Entire Page
---------------------------------------------------- */
-.wrapper {
-    height: 100%;
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #353335;
 }
 
+ul {
+    text-align: center;
+}
+
+.custom-toggler.navbar-toggler {
+    border-radius: 0;
+    border: none;
+    padding: 0 0 0 0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(53,51,53)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Wrapper For Entire Page
+--------------------------------------------------- */
 .jumbo-container {
     padding: 10%;
 }

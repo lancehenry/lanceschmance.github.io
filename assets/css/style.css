@@ -65,8 +65,34 @@ ul {
 
 /* Expertise Section styles
 --------------------------------------------------- */
+.exp-container {
+    margin-top: 100px;
+    margin-bottom: 85px;
+}
 
+.exp-line {
+    margin-bottom: 70px;
+}
 
+.content-rows {
+    line-height: 25px;
+    margin-top: 50px;
+    padding: 0 20px 0 20px;
+}
+
+.icon {
+    color: #0b80fb;
+    margin-bottom: 20px;
+}
+
+.content-heading {
+    margin-bottom: 20px;
+}
+
+.p-text {
+    font-size: 14px;
+    color: #ababab;
+}
 
 /* Recent Work Section styles
 --------------------------------------------------- */
@@ -75,12 +101,17 @@ ul {
     margin-bottom: 10px;
 }
 
-.proj-btn {
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    border-radius: 40px;
-    padding: 10px 40px;
+.sub-line {
+    margin-bottom: 50px;
+}
+
+.project-one {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.img-fluid {
+    margin-bottom: 40px;
 }
 
 .text-left {
@@ -89,6 +120,18 @@ ul {
 
 .text-right {
     padding-right: 50px;
+}
+
+.p-project {
+    color: #616161;
+}
+
+.proj-btn {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 40px;
+    padding: 10px 40px;
 }
 
 h2 {
@@ -111,59 +154,15 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-.exp-line {
-    margin-bottom: 70px;
-}
-
-.port-line {
-    margin-bottom: 70px;
-}
-
-.sub-line {
-    margin-bottom: 50px;
-}
-
-.p-project {
-    color: #616161;
-}
-
-.p-text {
-    font-size: 14px;
-    color: #ababab;
-}
-
-.exp-container {
-    margin-top: 100px;
-    margin-bottom: 85px;
-}
-
+/* Porfolio Section styles
+--------------------------------------------------- */
 .port-container {
     margin-top: 100px;
     margin-bottom: 85px;
 }
 
-.img-fluid {
-    margin-bottom: 40px;
-}
-
-.content-rows {
-    line-height: 25px;
-    margin-top: 50px;
-    padding: 0 20px 0 20px;
-}
-
-.icon {
-    color: #0b80fb;
-    margin-bottom: 20px;
-}
-
-.content-heading {
-    margin-bottom: 20px;
-}
-
-.project-one {
-    margin-top: 80px;
-    margin-bottom: 10px;
+.port-line {
+    margin-bottom: 70px;
 }
 
 /* Wobble Button Animation
@@ -259,7 +258,7 @@ p {
     padding: 100px 0;
 }
 
-/* Sticky Footer Styles
+/* Footer Styles
 --------------------------------------------------- */
 .footer {
     position: absolute;

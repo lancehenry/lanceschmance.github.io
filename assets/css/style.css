@@ -48,11 +48,18 @@ ul {
     padding: 10%;
 }
 
+.jumbo-bg {
+    background-image: url("../images/jumbo-img2.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
 .display-4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: -1px;
-    color: #353335;
+    color: #f3f3f3;
 }
 
 .jumbo-btn {

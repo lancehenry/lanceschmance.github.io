@@ -40,7 +40,7 @@ ul {
     text-align: center;
 }
 
-.custom-toggler.navbar-toggler {
+.navbar-toggler {
     border-radius: 0;
     border: none;
     padding: 0 0 0 0;
@@ -49,7 +49,7 @@ ul {
     -webkit-padding: 0 0 0 0;
 }
 
-.custom-toggler .navbar-toggler-icon {
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(11,12,16)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     -webkit-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(11,12,16)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }

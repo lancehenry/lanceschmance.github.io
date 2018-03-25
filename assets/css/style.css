@@ -57,7 +57,7 @@ ul {
 }
 
 .jumbo-bg {
-    background-image: url("../images/jumbo-bg5.jpg");
+    background-image: url("../images/jumbo-bg.jpg");
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;   
@@ -86,7 +86,7 @@ ul {
     color: #0b0c10;
 }
 
-/* Expertise Section styles
+/* What I Do Section styles
 --------------------------------------------------- */
 .exp-container {
     margin-top: 100px;
@@ -105,7 +105,7 @@ ul {
 }
 
 .icon {
-    color: #45a29e;
+    color: #66fcf1;
     margin-bottom: 20px;
 }
 
@@ -188,7 +188,7 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: .75em;
-    color: #45a29e;
+    color: #0b0c10;
 }
 
 p {
@@ -213,6 +213,14 @@ p {
     border-radius: 40px;
     padding: 5px 30px;
     margin-top: 15px;
+    color: #1f2833;
+    border: 2px solid #1f2833;
+}
+
+.port-btn:hover {
+    background-color: #1f2833;
+    color: #66fcf1;
+    border: 2px solid #1f2833;
 }
 
 /* Grow Button Animation

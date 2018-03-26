@@ -388,4 +388,32 @@ p {
         background-color: #66fcf1;
         color: #0b0c10;
     }
+
+    h2 {
+        margin-top: -20px;
+    }
+
+    .recent-title {
+        margin-top: 50px;
+    }
+
+    .sub-line {
+        margin-bottom: -10px;
+    }
+
+    .exp-line {
+        margin-bottom: -30px;
+    }
+
+    .icon {
+        margin-top: 50px;
+    }
+
+    .p-margin {
+        margin-bottom: 60px;
+    }
+
+    .port-botContainer {
+        margin-top: -50px;
+    }
 }

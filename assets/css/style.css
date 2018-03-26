@@ -330,6 +330,14 @@ p {
         color: #0b0c10;
     }
 
+    .exp-line {
+        margin-bottom: -20px;
+    }
+
+    .icon {
+        margin-top: 30px;
+    }
+
     .text-left {
         text-align: center;
         padding: 0 20px;
@@ -338,6 +346,18 @@ p {
     .text-right {
         text-align: center;
         padding: 0 20px;
+    }
+
+    .sub-line {
+        margin-bottom: -20px;
+    }
+
+    .p-margin {
+        margin-bottom: 60px;
+    }
+
+    .port-botContainer {
+        margin-top: -50px;
     }
 
     h3 {
@@ -361,6 +381,10 @@ p {
 
     .proj-btn:hover {
         text-decoration: none;
+    }
+
+    .btn-resp {
+        margin-bottom: 30px;
     }
 }
 
@@ -391,6 +415,10 @@ p {
 
     h2 {
         margin-top: -20px;
+    }
+
+    .btn-resp {
+        margin-bottom: 70px;
     }
 
     .recent-title {

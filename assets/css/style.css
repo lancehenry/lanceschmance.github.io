@@ -113,7 +113,7 @@ ul {
 
 .p-text {
     font-size: 14px;
-    color: #c5c6c7;
+    color: #a4a5a5;
 }
 
 /* Recent Work Section styles
@@ -303,7 +303,43 @@ p {
     font-size: .85em;
 }
 
-/* Media Queries
+/* Media Query (1200 Breakpoint)
+--------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .btn-resp {
+        margin-bottom: 30px;
+    }
+}
+
+/* Media Query (992 Breakpoint)
+--------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+    .display-4 {
+        font-size: 39px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        letter-spacing: -1px;
+        color: #66fcf1;
+    }
+
+    .jumbo-btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        border-radius: 30px;
+        padding: 10px 35px;
+        color: #c5c6c7;
+        border: 2px solid #66fcf1;
+    }
+    
+    .jumbo-btn:hover {
+        border: 2px solid #66fcf1;
+        background-color: #66fcf1;
+        color: #0b0c10;
+    }
+}
+
+/* Media Query (768 Breakpoint)
 --------------------------------------------------- */
 @media only screen and (max-width: 768px) {
     .display-4 {
@@ -330,12 +366,24 @@ p {
         color: #0b0c10;
     }
 
+    h3 {
+        text-align: center;
+    }
+
+    h6 {
+        text-align: center;
+    }
+
     .exp-line {
         margin-bottom: -20px;
     }
 
     .icon {
         margin-top: 30px;
+    }
+
+    .sub-line {
+        margin-bottom: -20px;
     }
 
     .text-left {
@@ -348,8 +396,8 @@ p {
         padding: 0 20px;
     }
 
-    .sub-line {
-        margin-bottom: -20px;
+    .p-project {
+        text-align: center;
     }
 
     .p-margin {
@@ -358,18 +406,6 @@ p {
 
     .port-botContainer {
         margin-top: -50px;
-    }
-
-    h3 {
-        text-align: center;
-    }
-
-    h6 {
-        text-align: center;
-    }
-
-    .p-project {
-        text-align: center;
     }
 
     .proj-btn {
@@ -388,6 +424,36 @@ p {
     }
 }
 
+/* Media Query (604 Breakpoint)
+--------------------------------------------------- */
+@media only screen and (max-width: 604px) {
+    .display-4 {
+        font-size: 35px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        letter-spacing: -1px;
+        color: #66fcf1;
+    }
+
+    .jumbo-btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        border-radius: 30px;
+        padding: 10px 35px;
+        color: #c5c6c7;
+        border: 2px solid #66fcf1;
+    }
+    
+    .jumbo-btn:hover {
+        border: 2px solid #66fcf1;
+        background-color: #66fcf1;
+        color: #0b0c10;
+    }
+}
+
+/* Media Query (420 Breakpoint)
+--------------------------------------------------- */
 @media only screen and (max-width: 420px) {
     .display-4 {
         font-size: 28px;

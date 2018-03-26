@@ -77,10 +77,11 @@ ul {
     border: 2px solid #66fcf1;
 }
 
-.jumbo-btn:hover {
-    border: 2px solid #66fcf1;
-    background-color: #66fcf1;
-    color: #0b0c10;
+.jumbo-btn:hover, .jumbo-btn.active.focus, .jumbo-btn.active:focus, .jumbo-btn.active:hover, .jumbo-btn:active.focus, .jumbo-btn:active:focus, .jumbo-btn:active:hover  {
+    border: 2px solid #66fcf1 !important;
+    background-color: #66fcf1 !important;
+    color: #0b0c10 !important;
+    box-shadow: none !important;
 }
 
 /* What I Do Section styles
@@ -163,10 +164,11 @@ ul {
     border: 2px solid #1f2833;
 }
 
-.proj-btn:hover {
-    background-color: #1f2833;
-    color: #66fcf1;
-    border: 2px solid #1f2833;
+.proj-btn:hover, .proj-btn.active.focus, .proj-btn.active:focus, .proj-btn.active:hover, .proj-btn:active.focus, .proj-btn:active:focus, .proj-btn:active:hover  {
+    border: 2px solid #1f2833 !important;
+    background-color: #1f2833 !important;
+    color: #66fcf1 !important;
+    box-shadow: none !important;
 }
 
 h2 {
@@ -224,10 +226,11 @@ p {
     border: 2px solid #1f2833;
 }
 
-.port-btn:hover {
-    background-color: #1f2833;
-    color: #66fcf1;
-    border: 2px solid #1f2833;
+.port-btn:hover, .port-btn.active.focus, .port-btn.active:focus, .port-btn.active:hover, .port-btn:active.focus, .port-btn:active:focus, .port-btn:active:hover  {
+    border: 2px solid #1f2833 !important;
+    background-color: #1f2833 !important;
+    color: #66fcf1 !important;
+    box-shadow: none !important;
 }
 
 /* Grow Button Animation

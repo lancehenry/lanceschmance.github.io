@@ -289,33 +289,6 @@ input {
     color: #0b0c10;
 }
 
-#emailHelp {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: #0b0c10;
-}
-
-.send-btn {
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    border-radius: 40px;
-    padding: 5px 30px;
-    margin-top: 15px;
-    color: #66fcf1;
-    background-color: #1f2833;
-    border: 2px solid #1f2833;
-}
-
-.send-btn:hover, .send-btn.active.focus, .send-btn.active:focus, .send-btn.active:hover, .send-btn:active.focus, .send-btn:active:focus, .send-btn:active:hover  {
-    border: 2px solid #66fcf1 !important;
-    background-color: #66fcf1 !important;
-    color: #1f2833 !important;
-    box-shadow: none !important;
-}
-
-
-
 /* Footer Styles
 --------------------------------------------------- */
 .footer {

@@ -14,7 +14,7 @@
     </script>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 
     <!-- Responsive Meta Tag -->
     <meta charset="utf-8">
@@ -291,12 +291,54 @@
             <div class="container text-center">
                 <h2 class="bottom-title">Do you want to work together?</h2>
                 <p class="lead">Tell me more about your project.</p>
-                <button type="button" class="btn btn-outline-dark jumbo-btn hvr-grow">IT'S GO TIME!</button>
+                <button type="button" class="btn btn-outline-dark jumbo-btn hvr-grow" data-toggle="modal" data-target="#myModal">IT'S GO TIME!</button>
             </div>
         </div>
 
         <!-- Modal Contact Form WILL GO HERE -->
+        <div class="container my-modal">
 
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">SEND ME SOME MORE INFO</h4>
+                            <hr>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Jon Snow">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="jonsnow@winterfell.com">
+                                    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Message</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-dark port-btn hvr-grow" data-dismiss="modal">CLOSE</button>
+                            <button type="button" class="btn btn-outline-dark send-btn hvr-grow">SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         <!-- Footer Content -->
         <footer class="footer">

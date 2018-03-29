@@ -289,6 +289,12 @@ input {
     color: #0b0c10;
 }
 
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #0b0c10;
+}
+
 /* Footer Styles
 --------------------------------------------------- */
 .footer {

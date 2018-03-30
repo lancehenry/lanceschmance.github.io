@@ -84,7 +84,11 @@ ul {
     box-shadow: none !important;
 }
 
-/* More About Me Section styles
+.side-by-side {
+    display: flex;
+}
+
+/* About Me Section styles
 --------------------------------------------------- */
 .exp-container {
     margin-top: 100px;

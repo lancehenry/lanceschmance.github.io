@@ -121,6 +121,11 @@ ul {
     color: #a4a5a5;
 }
 
+.profile {
+    font-size: 20px;
+    color: #a4a5a5;
+}
+
 /* Recent Work Section styles
 --------------------------------------------------- */
 .jumbotron-work {

@@ -1,6 +1,6 @@
 // TypeIt functionality for jumbotron input
 new TypeIt("#input-type", {
-  strings: ["web applications.", "user experiences.", "design pieces."],
+  strings: ["that's creative.", "that's amazing.", "incredible!", "together."],
   breakLines: false,
   nextStringDelay: 3000,
   loopDelay: 3000,

@@ -121,10 +121,30 @@ ul {
     color: #a4a5a5;
 }
 
+/* Test Styles for Icons */
 .profile {
     font-size: 20px;
     color: #a4a5a5;
 }
+
+.icon-size {
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icon-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: .75em;
+    margin-top: -10px;
+    color: #45a29e;
+}
+
+
+
+
+
 
 /* Recent Work Section styles
 --------------------------------------------------- */

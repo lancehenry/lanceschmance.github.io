@@ -128,7 +128,7 @@ ul {
 }
 
 .icon-size {
-    margin: 40px 30px 20px 30px;
+    margin: 30px 30px 20px 30px;
 }
 
 .icon-text {
@@ -136,20 +136,15 @@ ul {
     font-weight: 700;
     font-size: .75em;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #45a29e;
 }
 
 .test-col {
     background-color: #66fcf1;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
-
-
-
-
-
 
 /* Recent Work Section styles
 --------------------------------------------------- */
@@ -400,6 +395,10 @@ textarea {
         background-color: #66fcf1;
         color: #0b0c10;
     }
+
+    .icon-size {
+        margin: 30px 60px 20px 60px;
+    }
 }
 
 /* Media Query (768 Breakpoint)
@@ -484,6 +483,10 @@ textarea {
 
     .btn-resp {
         margin-bottom: 30px;
+    }
+
+    .icon-size {
+        margin: 30px 80px 20px 80px;
     }
 }
 

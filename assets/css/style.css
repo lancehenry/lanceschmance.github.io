@@ -128,17 +128,22 @@ ul {
 }
 
 .icon-size {
-    margin-right: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: 40px 30px 20px 30px;
 }
 
 .icon-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: .75em;
-    margin-top: -10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     color: #45a29e;
+}
+
+.test-col {
+    background-color: #66fcf1;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 

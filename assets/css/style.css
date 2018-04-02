@@ -91,13 +91,15 @@ ul {
 /* About Me Section styles
 --------------------------------------------------- */
 .exp-container {
-    margin-top: 100px;
-    margin-bottom: 85px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 .exp-line {
     color: #1f2833;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .content-rows {
@@ -121,22 +123,22 @@ ul {
     color: #a4a5a5;
 }
 
-/* Test Styles for Icons */
+/* Test Styles for Icons
+--------------------------------------------------- */
 .profile {
-    font-size: 20px;
+    font-size: 1.7em;
     color: #a4a5a5;
 }
 
 .icon-size {
-    margin: 30px 30px 20px 30px;
+    margin: 20px 40px 20px 40px;
 }
 
 .icon-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: .75em;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    font-size: .7em;
+    margin-bottom: 20px;
     color: #45a29e;
 }
 
@@ -153,7 +155,7 @@ ul {
 }
 
 .work-container {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 

@@ -131,7 +131,9 @@ ul {
 }
 
 .icon-size {
-    margin: 20px 40px 20px 40px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .icon-text {
@@ -399,7 +401,9 @@ textarea {
     }
 
     .icon-size {
-        margin: 30px 60px 20px 60px;
+        width: 80px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 }
 
@@ -488,7 +492,9 @@ textarea {
     }
 
     .icon-size {
-        margin: 30px 80px 20px 80px;
+        width: 80px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 }
 
@@ -567,8 +573,10 @@ textarea {
         margin-bottom: -30px;
     }
 
-    .icon {
-        margin-top: 50px;
+    .icon-size {
+        width: 80px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 
     .p-margin {

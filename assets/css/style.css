@@ -400,6 +400,11 @@ textarea {
         color: #0b0c10;
     }
 
+    .test-col {
+        background-color: #66fcf1;
+        padding: 30px 160px;
+    }
+
     .icon-size {
         width: 80px;
         margin-top: 20px;
@@ -440,10 +445,6 @@ textarea {
 
     h6 {
         text-align: center;
-    }
-
-    .exp-line {
-        margin-bottom: -20px;
     }
 
     .icon {
@@ -491,6 +492,15 @@ textarea {
         margin-bottom: 30px;
     }
 
+    .exp-line {
+        margin-bottom: 40px;
+    }
+
+    .test-col {
+        background-color: #66fcf1;
+        padding: 30px 160px;
+    }
+
     .icon-size {
         width: 80px;
         margin-top: 20px;
@@ -523,6 +533,19 @@ textarea {
         border: 2px solid #66fcf1;
         background-color: #66fcf1;
         color: #0b0c10;
+    }
+
+    .exp-line {
+        margin-bottom: 40px;
+    }
+
+    .test-col {
+        background-color: #66fcf1;
+        padding: 30px 60px;
+    }
+
+    .col-sm-6 {
+        width: 50%;
     }
 }
 
@@ -570,13 +593,22 @@ textarea {
     }
 
     .exp-line {
-        margin-bottom: -30px;
+        margin-bottom: 40px;
     }
 
     .icon-size {
         width: 80px;
         margin-top: 20px;
         margin-bottom: 10px;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .test-col {
+        background-color: #66fcf1;
+        padding: 30px 60px;
     }
 
     .p-margin {

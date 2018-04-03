@@ -580,6 +580,11 @@ textarea {
         margin-top: -20px;
     }
 
+    .profile {
+        font-size: 1.5em;
+        color: #a4a5a5;
+    }
+
     .btn-resp {
         margin-bottom: 70px;
     }

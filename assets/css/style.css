@@ -102,28 +102,7 @@ ul {
     margin-bottom: 60px;
 }
 
-.content-rows {
-    line-height: 25px;
-    margin-top: 50px;
-    padding: 0 30px 0 30px;
-}
-
-.icon {
-    color: #0b0c10;
-    margin-bottom: 20px;
-}
-
-.content-heading {
-    color: #0b0c10;
-    margin-bottom: 20px;
-}
-
-.p-text {
-    font-size: 14px;
-    color: #a4a5a5;
-}
-
-/* Test Styles for Icons
+/* Styles for Icons
 --------------------------------------------------- */
 .profile {
     font-size: 1.7em;
@@ -246,6 +225,17 @@ p {
 
 .port-line {
     margin-bottom: 70px;
+}
+
+.content-rows {
+    line-height: 25px;
+    margin-top: 50px;
+    padding: 0 30px 0 30px;
+}
+
+.p-text {
+    font-size: 14px;
+    color: #a4a5a5;
 }
 
 .port-btn {

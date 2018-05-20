@@ -212,10 +212,14 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Porfolio Section styles
+/* Portfolio Section styles
 --------------------------------------------------- */
 .port-topContainer {
     margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.port-midContainer {
     margin-bottom: 40px;
 }
 
@@ -294,24 +298,14 @@ p {
 
 /* Modal Styles
 --------------------------------------------------- */
-h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #0b0c10;
-}
-
+h4,
 label {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #0b0c10;
 }
 
-input {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: #0b0c10;
-}
-
+input,
 textarea {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
